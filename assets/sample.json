@@ -1,0 +1,40 @@
+{
+    "name": "Fakih Hilmi - Programmer",
+    "age": 24,
+    "alamat": "karawang",
+    "hobby": [
+        "Coding",
+        "Main Game",
+        "Membaca"
+    ],
+    "lulusan": "Universitas Pasundan",
+    "tahunlulus": 2023,
+    "jurusan": "Teknik Informatika",
+    "fakultas": "Teknik",
+    "ipk": 4,
+
+
+    "github": {
+        "username": "@ilhamfakihhilmi",
+        "repositories": 2332,
+        "isGDE": true
+    },
+    
+    "articles": [
+        {
+            "id": 1,
+            "title": "God Of War",
+            "subtitle": "that is movie"
+        },
+        {
+            "id": 2,
+            "title": "Harvest Moon",
+            "subtitle": "that is game"
+        },
+        {
+            "id": 3,
+            "title": "Avangers",
+            "subtitle": "that is hero"
+        }
+    ]
+}
