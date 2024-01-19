@@ -16,13 +16,20 @@ class MainApp extends StatefulWidget {
 }
 
 class _MainAppState extends State<MainApp> {
+  // variable sample
   Sample? result;
   // fake method for simulation
   Future _loadJsonSample() async {
+    //loadSting untuk meload data dari api(json)
     String jsonString = await rootBundle.loadString('assets/sample.json');
+    
     //proses mapping data
-    final jsonData = jsonDecode(jsonString); // agar data menjadi object json
+    // fungsi decode untuk mengubah menjadi json data/object json
+    final jsonData = jsonDecode(jsonString); //jsonDecode agar data menjadi object json
+    //Sample.fromJson adalah constractor
     Sample sample = Sample.fromJson(jsonData);
+    //mapping json data ke object sample
+    //setState digunakan untuk mengubah data dari state
     setState(() {
       result = sample;
     });
